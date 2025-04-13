@@ -1,8 +1,5 @@
 import { defineConfig } from 'vite';
-import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  plugins: [
-    tailwindcss()
-   ],
+  base: '/portfolio-react/', // Asegúrate de que esta ruta coincida con tu nombre de repositorio
 });
